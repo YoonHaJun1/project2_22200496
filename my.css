@@ -1,0 +1,78 @@
+body {
+    color: black;
+    background-color: white;
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+    padding: 12px;
+    border-bottom: 1px solid black;
+    background-color: skyblue;
+}
+
+.title h2 {
+    font-size: 20px;
+}
+.menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.menu h2 {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 1rem;
+}
+
+.title2 {
+    border-bottom: 1px solid black;
+    display: flex;
+    font-size: 24px;
+}
+
+.add {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: 1rem;
+    border: 1px solid black;
+}
+
+.table {
+    border: 1px solid black;
+    width: 10px;
+    
+}
+
+thead {
+    font-size: 20px;
+    background-color: gray;
+}
+
+th {
+    padding-right: 225px;
+    border: 1px solid black;
+}
+
+td {
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+button {
+    color: red;
+}
+
+.edit {
+    color: gray;
+    text-decoration: none;
+    border: 1px solid gray;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: block;
+            border-width: 2px;
+            border-style: groove;
+            border-color: black;
+        }
+    </style>
+
+<script>
+    function myFunction() {
+        let x = document.getElementById("number").value;
+        let y = document.getElementById("name").value;
+        let z = document.getElementById("pieces").value;
+        let r = document.getElementById("date").value;
+  if (x == "") {
+    alert("번호가 입력되지 않았습니다.");
+    return false;
+  }
+ else if (y == "") {
+    alert("이름 입력되지 않았습니다.");
+    return false;
+  }
+  else if (z == "") {
+    alert("개수가 입력되지 않았습니다.");
+    return false;
+  }
+  else if (r == "") {
+    alert("날짜가 입력되지 않았습니다.");
+    return false;
+  }
+    else
+  alert("게시물을 수정할까요?");
+  return true;
+
+}
+    </script>
+</head>
+
+<body>
+    <h1>Edit Page</h1>
+
+   
+    <label for="number">번호</label>
+    <input id="number" name="number" type="number">
+    <br>
+    <br>
+
+    <label for="name">이름</label>
+    <input id="name" name="name" type="text">
+    <br>
+    <br>
+
+    <label for="pieces">개수</label>
+    <input id="pieces" name="pieces" type="number">
+    <br>
+    <br>
+
+    <label for="date">날짜</label>
+    <input id="date" name="date" type="date">
+    <br>
+    <br>
+
+    <button onclick="myFunction()">수정</button>
+</body>
+</html>
